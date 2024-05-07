@@ -1,0 +1,46 @@
+/* body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        } */
+body {
+	background-color: #FEF9E7;
+	background-image:
+		url('https://images.pexels.com/photos/6775241/pexels-photo-6775241.jpeg?auto=compress&cs=tinysrgb&w=600');
+	background-size: 100%;
+}
+
+.container {
+	max-width: 800px;
+	margin: 50px auto;
+	padding: 20px;
+	background-color: #D6EAF8;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+	color: #1A5276;
+	font-size: 30px;
+	text-align: center;
+	font-family: "Segoe UI", Arial, sans-serif;
+}
+
+.feature {
+	margin-bottom: 30px;
+}
+
+h2 {
+	font-size: 24px;
+	color: #CC33FF;
+	margin-bottom: 10px;
+}
+
+p {
+	font-size: 16px;
+	line-height: 1.6;
+	color: #17202A;
+	    font-family: Arial, Helvetica, sans-serif;
+}

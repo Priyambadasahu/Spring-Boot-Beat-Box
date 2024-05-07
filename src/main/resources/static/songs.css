@@ -1,0 +1,76 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: #f2f2f2;
+}
+
+form {
+	width: 30%;
+	margin: 0 auto;
+	padding: 10px;
+	background-color: #fff;
+	border-radius: 5px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	background-color: #CCFFFF;;
+	border-style: solid;
+	height: 400px;
+}
+
+label {
+	display: block;
+	margin-bottom: 2px;
+	font-weight: bolder;
+}
+
+input[type="text"] {
+	width: 80%;
+	padding: 10px;
+	margin-bottom: 20px;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+	padding: 10px 20px;
+	background-color: #333;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+input[type="submit"]:hover {
+	background-color: #444;
+}
+
+.song-item {
+	margin-bottom: 5px;
+}
+
+.song-item input[type="checkbox"] {
+	margin-right: 5px;
+}
+
+h2 {
+	font-size: 30px;
+	border-style: ridge;
+	background-color: #000066;
+	color: #FFFF66;
+	text-align: center;
+	/* width: 400px; */
+	height: 60px;
+	border-radius: 100px;
+
+	border-style: ridge;
+	font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+	transition: margin-left 0.5s;
+	/* Add transition effect to margin-left */
+	cursor: pointer; /* Change cursor to pointer on hover */
+	margin-bottom: 20px;
+	transition: 0.3s ease;
+}
+
+h2:hover {
+	color: #ff6600; /* Change color on hover */
+}

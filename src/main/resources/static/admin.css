@@ -1,0 +1,60 @@
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f8f8f8;
+	margin: 0;
+	padding: 0;
+	background-image:
+		url("https://c0.wallpaperflare.com/preview/955/887/636/music-sound-player-headphone.jpg")
+}
+
+h2 {
+	text-align: center;
+	color: #333;
+}
+
+.buttons-container {
+	text-align: center;
+	margin-top: 50px;
+}
+
+form {
+	display: inline-block;
+	margin: 10px;
+}
+
+input[type="submit"] {
+	background-color: #ff6600;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+	background-color: #e55e00;
+}
+
+h2 {
+	font-size: 30px;
+	border-style: ridge;
+	background-color: #000066;
+	color: #FFFF66;
+	text-align: center;
+	/* width: 400px; */
+	height: 60px;
+	border-radius: 100px;
+	
+	border-style: ridge;
+	font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+	transition: margin-left 0.5s;
+	/* Add transition effect to margin-left */
+	cursor: pointer; /* Change cursor to pointer on hover */
+	margin-bottom: 20px;
+	transition: 0.3s ease;
+}
+
+h2:hover {
+	color: #ff6600; /* Change color on hover */
+}
